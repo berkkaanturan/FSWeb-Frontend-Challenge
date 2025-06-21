@@ -1,0 +1,172 @@
+{
+  "en": {
+    "header": {
+      "name": "Berk Kaan Turan",
+      "nav": ["Skills", "Profile", "Projects"]
+    },
+    "hero": {
+      "title": "Creative thinker\nMinimalism lover",
+      "description": "Hi, I’m Berk Kaan Turan. I’m a full-stack developer. If you are looking for a Developer who crafts solid and scalable frontend products with great user experiences, let’s shake hands with me.",
+      "hireMe": "Hire me",
+      "github": "Github",
+      "linkedin": "LinkedIn"
+    },
+    "skills": {
+      "title": "Skills",
+      "list": [
+        {
+          "name": "Java Script",
+          "desc": "Experience with modern JavaScript and ES6+ features."
+        },
+        {
+          "name": "React.Js",
+          "desc": "Experience with React and building scalable UI components."
+        },
+        {
+          "name": "Node.Js",
+          "desc": "Experience with Node.js and backend development."
+        }
+      ]
+    },
+    "profile": {
+      "title": "Profile",
+      "labels": {
+        "birth": "Birth Date",
+        "city": "City",
+        "education": "Education",
+        "role": "Role"
+      },
+      "profile": {
+        "birth": "04.02.1998",
+        "city": "Istanbul",
+        "education": "Istanbul Bilgi University - Mechatronics Engineering",
+        "role": "Fullstack Web Developer, Java Developer"
+      },
+      "aboutMe": {
+        "title": "About Me",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Venian aut, odit laborum aliquam voluptatum nisi mollitia. Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "list": [
+        {
+          "name": "Workintech",
+          "image": "/images/workintech.png",
+          "desc": "A simple, customizable, minimal setup code plugin that allows you to use the latest esbuild module output directly.",
+          "tags": ["react", "redux", "axios"],
+          "github": "Github",
+          "view": "View Site"
+        },
+        {
+          "name": "Random Jokes",
+          "image": "/images/random-jokes.png",
+          "desc": "A simple, customizable, minimal setup code plugin that allows you to use the latest esbuild module output directly.",
+          "tags": ["react", "redux", "axios"],
+          "github": "Github",
+          "view": "View Site"
+        },
+        {
+          "name": "Journey",
+          "image": "/images/journey.png",
+          "desc": "A simple, customizable, minimal setup code plugin that allows you to use the latest esbuild module output directly.",
+          "tags": ["react", "redux", "axios"],
+          "github": "Github",
+          "view": "View Site"
+        }
+      ]
+    },
+    "footer": {
+      "cta": "Let’s work together on your next product.",
+      "email": "berkkaanturan@outlook.com",
+      "blog": "Personal Blog",
+      "github": "Github",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "tr": {
+    "header": {
+      "name": "Berk Kaan Turan",
+      "nav": ["Yetenekler", "Profil", "Projeler"]
+    },
+    "hero": {
+      "title": "Yaratıcı düşünür\nMinimalist sever",
+      "description": "Merhaba, ben Berk Kaan Turan. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünleri geliştiren birini arıyorsanız, tanışalım.",
+      "hireMe": "Beni işe al",
+      "github": "Github",
+      "linkedin": "LinkedIn"
+    },
+    "skills": {
+      "title": "Yetenekler",
+      "list": [
+        {
+          "name": "Java Script",
+          "desc": "Modern JavaScript ve ES6+ özellikleriyle deneyim."
+        },
+        {
+          "name": "React.Js",
+          "desc": "React ile ölçeklenebilir arayüzler geliştirme deneyimi."
+        },
+        {
+          "name": "Node.Js",
+          "desc": "Node.js ile backend geliştirme deneyimi."
+        }
+      ]
+    },
+    "profile": {
+      "title": "Profil",
+      "labels": {
+        "birth": "Doğum Tarihi",
+        "city": "Şehir",
+        "education": "Eğitim",
+        "role": "Rol"
+      },
+      "profile": {
+        "birth": "04.02.1998",
+        "city": "İstanbul",
+        "education": "İstanbul Bilgi Üniversitesi - Mekatronik Mühendisliği",
+        "role": "Fullstack Web Geliştirici, Java Geliştirici"
+      },
+      "aboutMe": {
+        "title": "Hakkımda",
+        "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Venian aut, odit laborum aliquam voluptatum nisi mollitia. Minima accusamus ratione soluta aperiam sit voluptate? Dicta quod deserunt quam temporibus cumque magnam!"
+      }
+    },
+    "projects": {
+      "title": "Projeler",
+      "list": [
+        {
+          "name": "Workintech",
+          "image": "/images/workintech.png",
+          "desc": "En güncel esbuild modül çıktısını doğrudan kullanmanıza olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir eklenti.",
+          "tags": ["react", "redux", "axios"],
+          "github": "Github",
+          "view": "Siteyi Gör"
+        },
+        {
+          "name": "Random Jokes",
+          "image": "/images/random-jokes.png",
+          "desc": "En güncel esbuild modül çıktısını doğrudan kullanmanıza olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir eklenti.",
+          "tags": ["react", "redux", "axios"],
+          "github": "Github",
+          "view": "Siteyi Gör"
+        },
+        {
+          "name": "Journey",
+          "image": "/images/journey.png",
+          "desc": "En güncel esbuild modül çıktısını doğrudan kullanmanıza olanak tanıyan basit, özelleştirilebilir, minimal kurulumlu bir eklenti.",
+          "tags": ["react", "redux", "axios"],
+          "github": "Github",
+          "view": "Siteyi Gör"
+        }
+      ]
+    },
+    "footer": {
+      "cta": "Bir sonraki ürününüzde birlikte çalışalım.",
+      "email": "berkkaanturan@outlook.com",
+      "blog": "Kişisel Blog",
+      "github": "Github",
+      "linkedin": "LinkedIn"
+    }
+  }
+}
