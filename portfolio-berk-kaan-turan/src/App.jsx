@@ -4,7 +4,7 @@ import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
 import Hero from "./components/hero/Hero";
 import Profile from "./components/profile/Profile";
-import Projects from "./components/projects/projects";
+import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/skills";
 import content from "./data/content.json";
 import Switches from "./components/switches/Switches";
@@ -28,8 +28,8 @@ function App() {
         <Skills data={langData.skills} />
         <Profile data={langData.profile} />
         <Projects data={langData.projects} />
-        <Footer data={langData.footer} />
       </div>
+      <Footer data={langData.footer} />
     </div>
   );
 }
