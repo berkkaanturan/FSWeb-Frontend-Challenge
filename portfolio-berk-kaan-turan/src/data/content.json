@@ -2,7 +2,7 @@
   "en": {
     "header": {
       "name": "Berk Kaan Turan",
-      "nav": ["Skills", "Profile", "Projects"]
+      "nav": ["Skills", "Projects", "Hire me"]
     },
     "hero": {
       "title": "Creative thinker\nMinimalism lover",
@@ -16,15 +16,15 @@
       "list": [
         {
           "name": "Java Script",
-          "desc": "Experience with modern JavaScript and ES6+ features."
+          "desc": "Experience with modern JavaScript and ES6+ features. I have built dynamic, interactive web applications using advanced JavaScript concepts, asynchronous programming, and best practices for maintainable code. My projects often leverage the latest ECMAScript standards to ensure compatibility and performance."
         },
         {
           "name": "React.Js",
-          "desc": "Experience with React and building scalable UI components."
+          "desc": "Experience with React and building scalable UI components. I have developed complex single-page applications using hooks, context API, and state management libraries. My focus is on creating reusable, efficient, and accessible components that provide seamless user experiences."
         },
         {
           "name": "Node.Js",
-          "desc": "Experience with Node.js and backend development."
+          "desc": "Experience with Node.js and backend development. I have designed RESTful APIs, managed databases, and implemented authentication and authorization. My backend solutions are optimized for scalability, security, and reliability in production environments."
         }
       ]
     },
@@ -101,15 +101,15 @@
       "list": [
         {
           "name": "Java Script",
-          "desc": "Modern JavaScript ve ES6+ özellikleriyle deneyim."
+          "desc": "Modern JavaScript ve ES6+ özellikleriyle deneyim sahibiyim. Dinamik ve etkileşimli web uygulamaları geliştirirken asenkron programlama ve en iyi kodlama pratiklerini kullanıyorum. Projelerimde en güncel ECMAScript standartlarını tercih ederek performans ve uyumluluk sağlıyorum."
         },
         {
           "name": "React.Js",
-          "desc": "React ile ölçeklenebilir arayüzler geliştirme deneyimi."
+          "desc": "React ile ölçeklenebilir arayüzler geliştirme deneyimim var. Hooks, context API ve state yönetim kütüphaneleriyle karmaşık single-page uygulamalar oluşturdum. Yeniden kullanılabilir, verimli ve erişilebilir bileşenler üretmeye odaklanıyorum."
         },
         {
           "name": "Node.Js",
-          "desc": "Node.js ile backend geliştirme deneyimi."
+          "desc": "Node.js ile backend geliştirme konusunda tecrübeliyim. RESTful API'ler tasarladım, veritabanı yönetimi ve kimlik doğrulama işlemleri gerçekleştirdim. Ürettiğim backend çözümleri ölçeklenebilirlik, güvenlik ve güvenilirlik açısından optimize edilmiştir."
         }
       ]
     },
