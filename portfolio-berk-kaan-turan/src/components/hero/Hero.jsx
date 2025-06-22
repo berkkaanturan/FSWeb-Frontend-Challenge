@@ -16,8 +16,8 @@ export default function Hero({ data }) {
         <p className="mb-10 max-md:mb-5 leading-7 text-lg text-gray-500 font-inter max-w-xl">
           {data.description}
         </p>
-        <div className="hero-buttons flex gap-2.5 mb-7 max-md:justify-between">
-          <button className="bg-indigo-800 text-white text-lg leading-7 font-medium px-6 py-2.5 rounded-md hover:bg-indigo-950 max-md:text-base ">
+        <div className="hero-buttons flex gap-2.5 mb-7 max-md:justify-evenly">
+          <button className="bg-indigo-800 text-white text-lg leading-7 font-medium px-6 py-2.5 rounded-md hover:bg-indigo-950 max-md:text-base max-md:hidden">
             {data.hireMe}
           </button>
           <a

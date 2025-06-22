@@ -2,7 +2,7 @@ export default function Switches({ data }) {
   const { setDark, setLang, dark, lang } = data;
 
   return (
-    <div className="flex justify-end max-md:justify-center items-center gap-4 py-12 max-md:pt-8 max-w-7xl mx-auto">
+    <div className="flex justify-end max-md:justify-center items-center gap-4 py-8 max-md:pt-8 max-md:py-8 max-w-7xl mx-auto">
       <label class="inline-flex items-center cursor-pointer">
         <input
           onClick={() => setDark((prev) => !prev)}
