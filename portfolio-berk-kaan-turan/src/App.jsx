@@ -30,7 +30,6 @@ function App() {
         <Projects data={langData.projects} />
       </div>
       <Footer data={langData.footer} />
-      <Footer data={langData.footer} />
     </div>
   );
 }
