@@ -1,12 +1,12 @@
 export default function Header({ data }) {
   return (
     <header>
-      <div className="flex justify-between max-w-7xl mx-auto">
+      <div className="flex flex-row items-center justify-center md:justify-between max-w-7xl mx-auto max-md:mx-8 gap-4 md:gap-0">
         <span className="bg-indigo-500 rounded-full w-12 h-12 flex items-center justify-center text-white text-xl font-bold font-inter">
           B
         </span>
-        <nav>
-          <ul className="flex gap-16 text-lg font-medium">
+        <nav className="flex justify-center w-auto">
+          <ul className="flex gap-4 md:gap-16 text-lg font-medium items-center">
             <li>
               <a
                 href="#skills"

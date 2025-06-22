@@ -1,6 +1,6 @@
 export default function Profile({ data }) {
   return (
-    <section id="profile">
+    <section id="profile" className="max-md:mx-8">
       <h2 className="text-5xl leading-none font-semibold font-inter mb-10">
         {data.title}
       </h2>
@@ -10,14 +10,14 @@ export default function Profile({ data }) {
           <h3 className="font-inter text-indigo-700 text-3xl font-[500] mb-5 leading-7">
             {data.title}
           </h3>
-          <div className="flex gap-12">
-            <ul className="text-gray-950 font-inter font-[600] text-lg leading-loose">
-              <li>{data.labels.birth}</li>
+          <div className="flex">
+            <ul className="text-gray-950 flex flex-col font-inter font-[600] leading-loose ">
+              <li className="w-40">{data.labels.birth}</li>
               <li>{data.labels.city}</li>
               <li>{data.labels.education}</li>
               <li>{data.labels.role}</li>
             </ul>
-            <ul className="text-gray-950 font-inter font-normal text-lg leading-loose">
+            <ul className="text-gray-950 flex flex-col font-inter font-normal a leading-loose">
               <li>{data.profile.birth}</li>
               <li>{data.profile.city}</li>
               <li>{data.profile.education}</li>

@@ -2,28 +2,28 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero({ data }) {
   return (
-    <section className="hero flex flex-col md:flex-row py-20 w-full max-w-7xl mx-auto justify-between">
-      <div className="hero-left max-w-2xl">
-        <div className="flex items-center gap-3 mb-10">
-          <div className="flex-auto h-px bg-indigo-700"></div>
-          <span className="text-xl font-inter font-medium leading-7 text-indigo-700 pr-96">
+    <section className="hero flex flex-col md:flex-row py-20 max-w-7xl md:mx-auto max-md:mx-8 justify-between max-md:pt-10">
+      <div className="hero-left max-w-2xl ">
+        <div className="flex items-center gap-3 mb-10 max-md:mb-5">
+          <div className="h-px w-36 bg-indigo-700 max-md:w-20"></div>
+          <span className="text-xl font-inter font-medium leading-7 text-indigo-700 ">
             Berk Kaan Turan
           </span>
         </div>
-        <h2 className="text-7xl leading-none font-bold mb-9 text-gray-800 font-inter">
+        <h2 className="text-7xl leading-none font-bold mb-9 max-md:mb-5 text-gray-800 font-inter max-md:text-5xl">
           {data.title}
         </h2>
-        <p className="mb-10 leading-7 text-lg text-gray-500 font-inter max-w-xl">
+        <p className="mb-10 max-md:mb-5 leading-7 text-lg text-gray-500 font-inter max-w-xl">
           {data.description}
         </p>
-        <div className="hero-buttons flex gap-2.5 mb-7">
-          <button className="bg-indigo-800 text-white text-lg leading-7 font-medium px-6 py-2.5 rounded-md hover:bg-indigo-950 ">
+        <div className="hero-buttons flex gap-2.5 mb-7 max-md:justify-between">
+          <button className="bg-indigo-800 text-white text-lg leading-7 font-medium px-6 py-2.5 rounded-md hover:bg-indigo-950 max-md:text-base ">
             {data.hireMe}
           </button>
           <a
             href="https://github.com/berkkaanturan"
             target="_blank"
-            className="flex items-center gap-2 text-indigo-800 text-lg leading-7 font-medium px-6 py-2.5 rounded-md border-indigo-800 border hover:bg-indigo-100 "
+            className="flex items-center gap-2 text-indigo-800 text-lg leading-7 font-medium px-6 py-2.5 rounded-md border-indigo-800 border hover:bg-indigo-100 max-md:text-base "
           >
             <FaGithub className="w-6 h-6" />
             {data.github}
@@ -31,7 +31,7 @@ export default function Hero({ data }) {
           <a
             href="https://www.linkedin.com/in/berkkaanturan/"
             target="_blank"
-            className="flex items-center gap-2 text-indigo-800 text-lg leading-7 font-medium px-6 py-2.5 rounded-md border-indigo-800 border hover:bg-indigo-100 "
+            className="flex items-center gap-2 text-indigo-800 text-lg leading-7 font-medium px-6 py-2.5 rounded-md border-indigo-800 border hover:bg-indigo-100 max-md:text-base "
           >
             <FaLinkedin className="w-6 h-6" />
             {data.linkedin}

@@ -2,13 +2,13 @@ export default function Projects({ data }) {
   return (
     <section id="projects">
       <div className="container">
-        <div className="projects-content">
+        <div className="projects-content max-md:mx-8">
           <h2 className="text-5xl leading-none font-semibold font-inter mb-10">
             {data.title}
           </h2>
-          <div className="flex flex-col md:flex-row justify-between">
+          <div className="flex flex-col md:flex-row max-md:items-center justify-between">
             {data.list.map((project, i) => (
-              <div key={i} className="max-w-[300px]">
+              <div key={i} className="max-w-[300px] max-md:mb-14">
                 <img
                   src={project.image}
                   alt={project.name}
