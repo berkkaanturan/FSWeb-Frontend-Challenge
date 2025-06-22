@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Footer from "./components/footer/Footer";
-import Header from "./components/header/header";
+import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Profile from "./components/profile/Profile";
 import Projects from "./components/projects/Projects";
