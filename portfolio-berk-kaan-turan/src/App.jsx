@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
+import Header from "./components/header/header";
 import Hero from "./components/hero/Hero";
 import Profile from "./components/profile/Profile";
 import Projects from "./components/projects/Projects";
@@ -29,6 +29,7 @@ function App() {
         <Profile data={langData.profile} />
         <Projects data={langData.projects} />
       </div>
+      <Footer data={langData.footer} />
       <Footer data={langData.footer} />
     </div>
   );
