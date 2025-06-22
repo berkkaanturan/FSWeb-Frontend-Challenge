@@ -1,5 +1,9 @@
 {
   "en": {
+     "switches": {
+      "darkMode": "Dark Mode",
+      "lightMode": "Light Mode"
+    },
     "header": {
       "name": "Berk Kaan Turan",
       "nav": ["Skills", "Projects", "Hire me"]
@@ -85,6 +89,10 @@
     }
   },
   "tr": {
+    "switches": {
+      "darkMode": "Karanlık Mod",
+      "lightMode": "Aydınlık Mod"
+    },
     "header": {
       "name": "Berk Kaan Turan",
       "nav": ["Yetenekler", "Projeler", "Beni işe al"]

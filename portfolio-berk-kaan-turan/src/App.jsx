@@ -21,15 +21,17 @@ function App() {
       }
     >
       <div className="max-w-7xl mx-auto">
-        {/* Switch bar üstte, header ile aynı hizada */}
-        <Switches data={{ lang, setLang, dark, setDark }} />
+        <Switches
+          data={{ lang, setLang, dark, setDark }}
+          switches={langData.switches}
+        />
         <Header data={langData.header} />
         <Hero data={langData.hero} />
         <Skills data={langData.skills} />
         <Profile data={langData.profile} />
         <Projects data={langData.projects} />
       </div>
-      <Footer data={langData.footer} className />
+      <Footer data={langData.footer} />
     </div>
   );
 }
