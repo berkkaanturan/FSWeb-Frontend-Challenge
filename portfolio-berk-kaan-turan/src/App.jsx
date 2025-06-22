@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./App.css";
-import Footer from "./components/footer/footer";
-import Header from "./components/header/header";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Profile from "./components/profile/Profile";
 import Projects from "./components/projects/Projects";
-import Skills from "./components/skills/skills";
+import Skills from "./components/skills/Skills";
 import content from "./data/content.json";
 import Switches from "./components/switches/Switches";
 
