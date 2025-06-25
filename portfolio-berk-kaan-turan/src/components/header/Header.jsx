@@ -26,7 +26,7 @@ export default function Header({ data }) {
             <li>
               <a
                 href="#hireMe"
-                className="rounded-md py-3 px-6 text-lg font-inter font-medium text-indigo-800 leading-7 border border-indigo-800 max-md:text-base"
+                className="rounded-md py-3 px-6 text-lg font-inter font-medium text-indigo-800 leading-7 border border-indigo-800 max-md:text-base dark:bg-white"
               >
                 {data.nav[2]}
               </a>

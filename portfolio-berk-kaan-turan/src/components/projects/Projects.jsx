@@ -3,7 +3,7 @@ export default function Projects({ data }) {
     <section id="projects">
       <div className="container">
         <div className="projects-content max-md:mx-8">
-          <h2 className="text-5xl leading-none font-semibold font-inter mb-10">
+          <h2 className="text-5xl leading-none font-semibold font-inter mb-10 dark:text-[#AEBCCF]">
             {data.title}
           </h2>
           <div className="flex flex-col md:flex-row max-md:items-center justify-between">
@@ -14,17 +14,17 @@ export default function Projects({ data }) {
                   alt={project.name}
                   className="w-[300px] h-[180px] object-cover"
                 />
-                <h3 className="font-inter text-indigo-700 text-3xl font-[500] mt-5 leading-7">
+                <h3 className="font-inter text-indigo-700 dark:text-[#CFCBFF] text-3xl font-[500] mt-5 leading-7">
                   {project.name}
                 </h3>
-                <p className="font-inter leading-tight font-normal text-sm text-gray-500 mt-4">
+                <p className="font-inter leading-tight font-normal text-sm text-gray-500 dark:text-white mt-4">
                   {project.desc}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, idx) => (
                     <span
                       key={idx}
-                      className="text-indigo-800 font-inter font-medium text-sm px-4 py-1 rounded border-indigo-800 border rounded-s mt-3"
+                      className="text-indigo-800 dark:text-[#8F88FF] font-inter font-medium text-sm px-4 py-1 rounded border-indigo-800 dark:border-[#8F88FF] dark:bg-[#383838] border rounded-s mt-3"
                     >
                       {tag}
                     </span>
@@ -33,7 +33,7 @@ export default function Projects({ data }) {
                 <div className="flex justify-between underline">
                   <a
                     href="#"
-                    className="text-indigo-800 font-inter font-medium leading-4"
+                    className="text-indigo-800 dark:text-[#E1E1FF] font-inter font-medium leading-4"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -41,7 +41,7 @@ export default function Projects({ data }) {
                   </a>
                   <a
                     href="#"
-                    className="text-indigo-800 font-inter font-medium leading-4"
+                    className="text-indigo-800 dark:text-[#E1E1FF]  font-inter font-medium leading-4"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
