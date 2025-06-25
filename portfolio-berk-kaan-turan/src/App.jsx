@@ -1,34 +1,15 @@
-import { useEffect, useState } from "react";
-import "./App.css";
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
+import { AppProvider, useApp } from "./context/AppContext.jsx";
+import Switches from "./components/switches/Switches";
+import Header from "./components/header/Header.jsx";
 import Hero from "./components/hero/Hero";
+import Skills from "./components/skills/Skills";
 import Profile from "./components/profile/Profile";
 import Projects from "./components/projects/Projects";
-import Skills from "./components/skills/Skills";
-import content from "./data/content.json";
-import Switches from "./components/switches/Switches";
+import Footer from "./components/footer/Footer";
+import "./App.css";
 
-function App() {
-  const [lang, setLang] = useState("en");
-  const [dark, setDark] = useState(() => {
-    const stored = localStorage.getItem("theme");
-    if (stored === "dark") return true;
-    if (stored === "light") return false;
-    return false;
-  });
-
-  const langData = content[lang];
-
-  useEffect(() => {
-    if (dark) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [dark]);
+function AppContent() {
+  const { lang, setLang, dark, setDark, langData } = useApp();
 
   return (
     <div
@@ -52,4 +33,10 @@ function App() {
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <AppProvider>
+      <AppContent />
+    </AppProvider>
+  );
+}

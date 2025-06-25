@@ -1,3 +1,6 @@
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 export default function Switches({ data, switches }) {
   const { setDark, setLang, dark, lang } = data;
 
@@ -5,7 +8,22 @@ export default function Switches({ data, switches }) {
     <div className="flex justify-end max-md:justify-center items-center gap-4 py-8 max-md:pt-8 max-md:py-8 max-w-7xl mx-auto">
       <label className="inline-flex items-center cursor-pointer">
         <input
-          onClick={() => setDark((prev) => !prev)}
+          onClick={() => {
+            setDark((prev) => {
+              const newDark = !prev;
+              toast(
+                lang === "tr"
+                  ? newDark
+                    ? "Şu anda karanlık mod kullanıyorsunuz."
+                    : "Şu anda aydınlık mod kullanıyorsunuz."
+                  : newDark
+                  ? "You are now using dark mode."
+                  : "You are now using light mode.",
+                { position: "bottom-center" }
+              );
+              return newDark;
+            });
+          }}
           type="checkbox"
           value=""
           className="sr-only peer"
@@ -32,6 +50,7 @@ export default function Switches({ data, switches }) {
           "English"
         )}
       </button>
+      <ToastContainer position="bottom-center" />
     </div>
   );
 }
