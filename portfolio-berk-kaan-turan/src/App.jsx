@@ -1,6 +1,6 @@
 import { AppProvider, useApp } from "./context/AppContext.jsx";
 import Switches from "./components/switches/Switches";
-import Header from "./components/header/Header.jsx";
+import Header from "./components/header/header.jsx";
 import Hero from "./components/hero/Hero";
 import Skills from "./components/skills/Skills";
 import Profile from "./components/profile/Profile";

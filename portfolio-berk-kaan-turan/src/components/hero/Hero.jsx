@@ -39,7 +39,7 @@ export default function Hero({ data }) {
         </div>
       </div>
       <img
-        src="/images/profilephoto.jpg"
+        src="/images/profilephoto2.jpg"
         alt="profile"
         className="h-[28rem] w-[40rem] object-cover rounded-2xl shadow-2xl flex"
       />
